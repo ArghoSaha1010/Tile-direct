@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body class="scroll-smooth">
     <header class="w-full forBg"> 
        <div class="container max-w-[1292px] mx-auto">
             <div class="py-10 flex justify-between items-center">
@@ -32,23 +32,141 @@
                 </div>
            </div>
        </div>
-       <div class="flex items-center justify-center ">
-        <a href="#"><img class=" mb-10" src="./assets/bottomNav.svg" alt=""></a> 
+       <div class="flex items-center justify-center">
+        <a href="#transfer"><img class="mb-10" src="./assets/bottomNav.svg" alt=""></a> 
        </div>
     </header>
 
-    <main class="">
-        <div class="flex justify-center items-center pt-24 pb-18">
-            <video class="w-3/5 cursor-pointer h-[580px] mx-w-100% max-h-100%" controls poster="./assets/thumnail.png" src="./assets/Vite + React + TS.mp4" type="video/mp4"></video>
+    <main id="transfer" class="">
+        <div class="">
+            <div class="bg-[#F5F5F5] pb-80 relative">
+                <div class="flex justify-center items-center pt-24 pb-18">
+                    <video class="w-3/5 cursor-pointer h-[580px] mx-w-100% max-h-100%" controls poster="./assets/thumnail.png" src="./assets/Vite + React + TS.mp4" type="video/mp4"></video>
+                </div>
+                <h1 class="items-center justify-center flex text-3xl">Say Goodbye to Expensive, Time Consuming Tile Fulfillment</h1>
+            </div>
+            <div class="flex justify-center items-center absolute left-82 top-385 gap-5">
+                <div class="border border-black flex flex-col justify-center items-center p-16 gap-10 bg-white">
+                    <h1 class="text-center font-semibold">TRADITIONAL <br>
+                        PROCUREMENT CONSTRAINTS</h1>
+                    <div class="flex flex-col justify-center items-center gap-4">
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/wrong-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-black flex flex-col justify-center items-center p-16 gap-10 bg-white">
+                    <h1 class="text-center font-semibold">GATEWAY'S <br>
+                        SOURCING & PROCUREMENT</h1>
+                    <div class="flex flex-col justify-center items-center gap-4">
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/right-sign.png" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="text-center absolute right-105 bottom-29">
+                        <h1 class="text-white font-bold bg-black text-4xl w-[92px] h-[92px] rounded-full flex items-center justify-center mx-auto shadow-sm">VS</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h1 class="items-center justify-center flex text-3xl mb-16">Say Goodbye to Expensive, Time Consuming Tile Fulfillment</h1>
-        <div>
-            
+        <div class="mt-90 mb-20">
+            <h1 class="text-3xl text-center">You Design, We Take Care of the Rest!</h1>
+        </div>
+
+        <div class="flex justify-center items-center gap-48 mb-24">
+            <div class="flex flex-col justify-start items-start gap-8">
+                    <h1 class="text-center font-semibold text-3xl">Features</h1>
+                    <div class="flex flex-col justify-start items-start gap-4">
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/pen.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/book.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/file.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/userAdd.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/mark.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/dollar.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes</p>
+                        </div>
+                        <div class="flex justify-center items-center gap-5">
+                            <img src="./assets/featureBright.svg" alt=""> 
+                            <p>Lorem ipsum item line long goes here</p>
+                        </div>
+                    </div>
+            </div>
+            <div>
+                <img src="./assets/featureImage.svg" alt="">
+            </div>
         </div>
     </main>
 
     <footer>
-
+        
     </footer>
 </body>
 </html>
