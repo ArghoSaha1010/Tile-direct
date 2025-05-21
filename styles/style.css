@@ -1,3 +1,6 @@
-.applybg_for_footer{
+.forBg {
+    background-image: url('../assets/banner.png');
+  }
+.applybg_for_footer {
     background: radial-gradient(44.19% 188.06% at 50% 50%, #282727 25.56%, #000000 100%);
 }
