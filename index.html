@@ -10,21 +10,21 @@
 <body class="">
     <header class="w-full forBg"> 
        <div class="container max-w-[1292px] mx-auto">
-            <div class="py-10 flex justify-between items-center">
+            <div class="py-10 flex flex-col justify-center items-center w-full gap-8 px-5 md:px-0 md:flex-row md:justify-between md:items-center">
                 <a href=""><img src="./assets/titlebar.png" alt=""></a>
-                <div class="flex gap-5 justify-center items-center">
+                <div class="flex flex-col justify-center items-center md:flex-row gap-5 md:justify-center md:items-center">
                     <a class="text-white" href="#">THE DIFFERENCE</a>
                     <a class="text-white" href="#">FEATURES + BENEFITS</a>
                     <a class="text-white" href="#">TESTIMONIALS</a>
                     <a class="text-white" href="#">APPLY NOW</a>
-                    <button  class="bg-white px-7 py-2">BOOK A DEMO</button>
+                    <button  class="bg-white px-5 rounded-sm md:rounded-none md:px-7 py-2 cursor-pointer">BOOK A DEMO</button>
                 </div>
             </div>
-            <div class="flex justify-around items-center p-18">
+            <div class="flex flex-col gap-10 md:flex-row justify-around items-center p-18">
                 <div class="flex flex-col justify-start items-start">
                     <h1 class="text-white text-5xl mb-10">Welcome to Gateway</h1>
                     <p class="text-white mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi<br> sunt , autem incidunt quis fugiat placeat, eveniet nulla fugit<br> </p>
-                    <button class="text-white bg-black px-12 py-2">APPLY NOW</button>
+                    <button class="text-white bg-black px-12 py-2 cursor-pointer">APPLY NOW</button>
                 </div>
                 
                 <div>
@@ -41,12 +41,12 @@
         <div class="">
             <div class="bg-[#F5F5F5] pb-80 relative">
                 <div class="flex justify-center items-center pt-24 pb-18">
-                    <video class="w-3/5 cursor-pointer h-[580px] mx-w-100% max-h-100%" controls poster="./assets/thumnail.png" src="./assets/Vite + React + TS.mp4" type="video/mp4"></video>
+                    <video class="w-3/5 cursor-pointer md:h-[580px] mx-w-100% max-h-100%" controls poster="./assets/thumnail.png" src="./assets/Vite + React + TS.mp4" type="video/mp4"></video>
                 </div>
-                <h1 class="items-center justify-center flex text-3xl">Say Goodbye to Expensive, Time Consuming Tile Fulfillment</h1>
+                <h1 class="text-center justify-center flex text-2xl md:text-3xl px-5">Say Goodbye to Expensive, Time Consuming Tile Fulfillment</h1>
             </div>
-            <div class="flex justify-center items-center absolute left-82 top-385 gap-5">
-                <div class="border border-black flex flex-col justify-center items-center p-16 gap-10 bg-white">
+            <div class="flex justify-center items-center gap-5 absolute top-410 left-5 md:left-82 md:top-385 md:gap-5">
+                <div class="border border-black flex flex-col justify-center items-center p-10 md:p-16 gap-10 bg-white">
                     <h1 class="text-center font-semibold">TRADITIONAL <br>
                         PROCUREMENT CONSTRAINTS</h1>
                     <div class="flex flex-col justify-center items-center gap-4">
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border border-black flex flex-col justify-center items-center p-16 gap-10 bg-white">
+                <div class="border border-black flex flex-col justify-center items-center p-10 md:p-16 gap-10 bg-white">
                     <h1 class="text-center font-semibold">GATEWAY'S <br>
                         SOURCING & PROCUREMENT</h1>
                     <div class="flex flex-col justify-center items-center gap-4">
@@ -115,17 +115,18 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <div class="text-center absolute right-105 bottom-29">
+                    <!-- responsive for 637x922 and next start from mid-->
+                    <div class="text-center absolute right-68 bottom-29 md:right-105 md:bottom-29">
                         <h1 class="text-white font-bold bg-black text-4xl w-[92px] h-[92px] rounded-full flex items-center justify-center mx-auto shadow-sm">VS</h1>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-90 mb-20">
+        <div class="mt-90 mb-10 md:mb-20">
             <h1 class="text-3xl text-center">You Design, We Take Care of the Rest!</h1>
         </div>
 
-        <div class="flex justify-center items-center gap-48 mb-24">
+        <div class="flex flex-col-reverse md:flex-row justify-center items-center gap-10 md:gap-48 mb-24">
             <div class="flex flex-col justify-start items-start gap-8">
                     <h1 class="text-center font-semibold text-3xl">Features</h1>
                     <div class="flex flex-col justify-start items-start gap-4">
@@ -166,13 +167,13 @@
 
         <div class="bg-[#F5F5F5] py-[100px] flex flex-col justify-center items-center">
             <div>
-                <h1 class="font-semibold text-3xl mb-24">You Design, We Take Care of the Rest!</h1>
+                <h1 class="font-semibold text-3xl mb-10 md:mb-24">You Design, We Take Care of the Rest!</h1>
             </div>
-            <div class="flex justify-between items-center gap-48">
+            <div class="flex flex-col md:flex-row md:justify-between items-center gap-10 md:gap-48">
                 <div>
                     <img src="./assets/featureImage.svg" alt="">
                 </div>
-                <div>
+                <div >
                     <h1 class="font-bold text-3xl mb-6">Benefits</h1>
                     <div class="flex flex-col justify-start items-start gap-4">
                         <div class="flex justify-center items-center gap-5">
